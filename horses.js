@@ -1,4 +1,11 @@
+'use strict';
 
+function horseChanger() {
+    horseButton.innerHTML = "You Changed me!";
+    horseP.innerHTML = "Talk about horse power!";
+  }
+  
+  horseButton.onclick = horseChanger;
 
 
 
