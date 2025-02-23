@@ -1,0 +1,49 @@
+nav a {
+    display: inline-flex;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+   display: inline;
+   list-style-type: none;
+   }
+
+   a:hover {
+    background-color: #ec46ad;
+    color: black;
+  }
+  a.active {
+    background-color: #04AA6D;
+    color: rgb(230, 39, 188);
+  }
+  nav a {
+    color: black;
+    opacity: .6;
+    text-decoration: none;
+    font-family: "Rosewood Std Fill", Impact, Serif;
+    transition: opacity .5s ease-in-out;
+    list-style-type: none;
+  }
+
+body {
+    background-color: rgb(104, 109, 114);
+}
+
+img {
+    border-radius: 45%;
+    align-self: auto;
+    padding: 25px;
+    margin: 25px;
+}
+
+p {
+  margin: 25px;
+}
+
+footer {
+  margin: 50px;
+}
+
+button {
+  margin: 25px;
+}
